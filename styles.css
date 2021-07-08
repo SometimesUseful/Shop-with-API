@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: #ffffeb;
+}
+main{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.s-header{
+    background-color: antiquewhite;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.s-header-text{
+    margin: 0;
+    font-size: 48px;
+    color: #767676;
+}
+.s-btn, .s-wishlist-btn{
+    background-color: #ffffeb;
+    height: 40px;
+    width: 140px;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.s-btn:hover, .s-wishlist-btn:hover, .s-input-btn:hover{
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+.s-input{
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #adadad;
+}
+
+.product{
+    width: 25%;
+    border: 1px solid #adadad;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #fff;
+}
+.badge{
+    width: 50px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.wish{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+.wishlistLabel{
+    font-size: 18px;
+}
+#showItemsSelect{
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #adadad;
+}
+.new-el{
+    display: flex;
+    flex-direction: column;
+}
+.new-el-input{
+    display: flex;
+}
+.product-img{
+    width: 150px;
+    height: 150px;
+    padding-left: 110px;
+}
+.s-input-btn{
+    background-color: #ffffeb;
+    height: 34px;
+    width: 100px;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.description{
+    opacity: 50%;
+}
+
+.preloader{
+    padding: 40px;
+    font-size: 48px;
+}
